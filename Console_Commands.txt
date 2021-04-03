@@ -1,0 +1,20 @@
+mkdir [Nombre del directorio] => Crea directorios ("Carpetas")
+
+cd [Nombre del directorio] => Para ingresar en directorios 
+
+cd .. => Cambia al directorio anterior
+
+cd -- => Te lleva hasta la raíz de la ruta
+
+ls => Muestra los archivos dentro del directorio
+
+touch [Nombre del archivo . Extensión] => Crea archivos
+
+rmdir [Nombre del directorio] => Elimina directorios
+
+pwd => Muestra la ruta actual
+
+[Palabra] --help => Te da ayuda y consejos sobre la palabra que mencionas
+
+code => Abre visual code
+
