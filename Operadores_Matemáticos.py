@@ -10,6 +10,13 @@ A = int(A) #Aqui lo convertimos a entero
 B = int(B)
 
 suma = A + B
-
 print("La suma de las cantidades es: \n", suma)
+
+resta = A - B
+print("La resta de las cantidades es: \n", resta)
+
+multiplicacion = A * B
+print("La resta de las cantidades es: \n", multiplicacion)
+
+
 
