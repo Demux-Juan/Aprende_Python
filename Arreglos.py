@@ -25,26 +25,7 @@ else:
 for beto in arreglo:
     print('Sí se encontró el nombre de beto en el arreglo se imprime esta linea correspondiente al tamaño de arreglo')
 
-#funcion sin parametros ("Introduciendo variables")
-#para hacer la funcion tenemos que poner código dentro y tabulado, de lo contrario podemos poner solo la palabra reservada pass
-def saludo():
-    print('\nHola buenos dias, este es un saludo\n')
 
-saludo()
-
-#funciones con parametros
-def total( primero, segundo):
-    print("Este es el resultado de la suma en una función:",primero + segundo)
-
-total(51,100)
-
-
-
-def total2( primero, segundo):
-    res = primero + segundo
-    return res #envia el valor res a total2
-
-print(total2(50,100),'\n\n')
 
 # Especifica hasta donde hablar del arreglo
 
