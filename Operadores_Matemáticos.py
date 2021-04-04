@@ -43,3 +43,11 @@ print("Raíz cuadrada convertida a string: \n", string)
 redondeo = round(raiz_cuadrada, 2)
 print("Redondeo de la raíz cuadrada a dos digitos: \n", redondeo)
 
+
+###### Concatenar ######
+
+palabra_uno = 'Hola'
+palabra_dos = 'Juan'
+palabra = 'Saludo: %s %s  ' %( palabra_uno, palabra_dos)
+print(palabra * 3)
+print('El número de caracteres que tiene es : ', len(palabra),'\n')
