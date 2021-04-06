@@ -1,3 +1,22 @@
+'''
+La direferencia entre una lista y una tupla es que la tupla es inmutable
+osea que no puede cambiar, pero la lista si puede realizar varias funciones
+lista = [1, 2, 3, 4]
+tupla = (1, 2, 3, 4)
+
+Diccionarios:
+
+diccionario = { 
+    'key1': value1,
+    'Key2': value2,
+    'Key3': value3,
+    'Key4': value4,
+}
+
+
+
+'''
+
 primero = 50
 segundo = 9
 arreglo = ['Beto','Igor', 10, 0xff,24,0xfe,"Saul"]
@@ -34,9 +53,29 @@ print(arreglo[:3],'\n') #Se muestra el contenido hasta la 3ra casilla
 print(arreglo[2:],'\n') #Se muestra el contenido empezando desde la segunda casilla en adelante
 
 
+# Diccionarios
 
+info_pokemon = { 
+    'Raicuaza'  : 'Dragon',
+    'Pikachu'   : 'Electrico', 
+    'Metacross' : 'Acero',
+    'Charizart' : 'Fuego',
+}
 
+for pokemon in info_pokemon.keys():
+    print(pokemon)
+print('\n')
 
+for tipo in info_pokemon.values():
+    print(tipo)
+print('\n')
+
+for pokemon_y_tipo in info_pokemon.items():
+    print(pokemon_y_tipo)
+print('\n')
+  
+
+print(info_pokemon['Metacross'])
 
 
 
