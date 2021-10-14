@@ -1,4 +1,8 @@
+#La clases contienen métodos("Funciones que sólo funcionan con su clase")
+#se puede definir un método como una instancia de una clase y que se encuentra dentro de la clase, y sólo se puede
+#usarse con la clase que se usa, una función se declara aparte y cumple una acción para cualquier momento en que se llame
 #Los métodos son acciones o funciones que puede realizar un objeto. 
+
 
 ###### Clases ######
 
@@ -18,7 +22,6 @@ class estadisticas:
 ###### Objetos ######
 
 pokemon = estadisticas()
-
 print( pokemon.ataca(),'\n')
 print(pokemon.nombre, pokemon.color, pokemon.peso)
 

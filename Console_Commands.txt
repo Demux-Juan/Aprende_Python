@@ -18,3 +18,5 @@ pwd => Muestra la ruta actual
 
 code => Abre visual code
 
+Para ejecutar los programas realizados tienes que poner python3 (Nombre del programa).py, sino tienes inter no jalará las librerías
+
